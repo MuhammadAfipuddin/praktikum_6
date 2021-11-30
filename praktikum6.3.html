@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum 6.3</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .container {
+        background-color: pink;
+        padding: 1em 0 1em 0;
+      }
+
+      header {
+        width: 1170px;
+        height: 100px;
+        background-color: rgb(142, 230, 252);
+        margin: 0 1em 1em;
+      }
+
+      header h2 {
+        text-align: center;
+        padding-top: 35px;
+      }
+
+      .tengah {
+        display: flex;
+      }
+
+      aside {
+        width: 300px;
+        height: 700px;
+        background-color: rgb(57, 192, 226);
+        margin: 0 1em 1em;
+        text-align: center;
+      }
+
+      aside h2 {
+        text-align: center;
+        padding-top: 330px;
+      }
+
+      article {
+        width: 900px;
+        height: 700px;
+        background-color: rgb(255, 46, 46);
+        margin: 0 1em 1em 0;
+      }
+
+      article h2 {
+        text-align: center;
+        padding-top: 330px;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding-top: 45px;
+      }
+
+      li img {
+        width: 240px;
+        margin: 20px;
+      }
+
+      footer {
+        background-color: rgb(142, 230, 252);
+        width: 1170px;
+        height: 100px;
+        margin: 0 1em;
+      }
+
+      footer h2 {
+        text-align: center;
+        padding-top: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Header</h2>
+      </header>
+      <div class="tengah">
+        <aside>
+          <h2>Aside</h2>
+        </aside>
+        <article>
+          <h2>Article</h2>
+          <ul>
+            <li><img src="img/01.jpg" alt="" /></li>
+            <li><img src="img/02.jpg" alt="" /></li>
+            <li><img src="img/03.jpg" alt="" /></li>
+          </ul>
+        </article>
+      </div>
+      <div class="bawah">
+        <footer>
+          <h2>Footer</h2>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
